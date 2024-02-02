@@ -68,7 +68,9 @@ VmWare interview
 
 RSA interview
 Round 1&2 : 
-    1. Content provider, Content resolver
+    1. Content provider, Content resolver : Imagine all the services to be books in a library -> 
+        - The Content Provider (librarian) manages all the data and decides who can access it, 
+        - while the Content Resolver (person) helps other parts of the phone access that data without needing to know all the details about where it's stored or how it's organized.
     2. Broadcast receiver
     3. How will u make a RSA application, mention design
     4. Is it ideal to use livedata with room when app is not making api calls for a long time(say a year)
