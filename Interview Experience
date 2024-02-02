@@ -162,7 +162,7 @@ Few Other interview Questions on kotlin :
 4. Write syntax for extension functions.
 5. What is sealed class?
 6. Null safety in kotlin.
-7. Scoping functions - let, run, apply, etc
+7. Scoping functions - let, run, apply, etc : Scope functions don't introduce any new technical capabilities, but they can make your code more concise and readable.
 8. Higher order functions
 9. What is late init and lazy init? Difference between them. :-
      Lateinit can only be used with a var property whereas lazy will always be used with val property.
