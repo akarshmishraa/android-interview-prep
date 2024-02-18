@@ -1,0 +1,17 @@
+1. LiveData: An observable data holder class that respects the lifecycle of app components, 
+  automatically managing subscriptions and preventing memory leaks.
+
+2. ViewModel: A class responsible for preparing and managing data for UI components, 
+  surviving configuration changes, and decoupling data from activities/fragments.
+
+3. Room: A SQLite object-mapping library providing compile-time checks and boilerplate code reduction, 
+  simplifying database operations.
+
+4. Data Binding: A support library enabling binding UI components directly to data sources, 
+  reducing boilerplate code and improving readability.
+
+5. Paging: A library handling large datasets efficiently by loading small chunks as needed, 
+  optimizing resource usage and user experience.
+
+6. WorkManager: A library managing deferrable background tasks, ensuring execution under various 
+  constraints while respecting system optimizations.
