@@ -1,0 +1,28 @@
+Activity
+
+onCreate(): Initializes activity, sets layout, and creates UI components. Called once.
+onStart(): Activity becomes visible but not interactive yet. Prepares for user interaction. Can be called multiple times.
+onResume(): Activity is in the foreground and fully interactive. Resumes paused tasks. Can be called multiple times.
+onPause(): Partially obscured by another activity or dialog. Save data and stop resource-consuming tasks. Guaranteed to be called before onStop().
+onStop(): Activity no longer visible. Release resources and save data. Can be called multiple times.
+onDestroy(): Final cleanup before activity destroyed. Free up memory and resources. Called once.
+
+
+Fragemnts 
+
+Enhance reusability and adaptability for different screen sizes. They exist within activities and have their own lifecycle,
+which is closely tied to the host activity’s lifecycle.
+
+The Fragment lifecycle consists of various states and corresponding callback methods:
+
+1. onAttach(): Fragment gets associated with an activity.
+2. onCreate(): Initialize non-UI components, such as data sources or network connections.
+3. onCreateView(): Inflate the fragment’s layout and set up UI elements.
+4. onActivityCreated(): Activity’s onCreate() completed; can access its views.
+5. onStart(): Fragment becomes visible; prepare for user interaction.
+6. onResume(): Fragment gains focus and starts receiving user input.
+7. onPause(): Fragment loses focus; save changes and release resources.
+8. onStop(): Fragment no longer visible; further cleanup.
+9. onDestroyView(): Remove view hierarchy and release UI-related resources.
+10. onDestroy(): Clean up remaining resources and detach from the activity.
+11. onDetach(): Fragment fully detached from the activity.
