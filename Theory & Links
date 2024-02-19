@@ -46,6 +46,9 @@ Room streamlines SQLite operations by automatically generating necessary code ba
   need user interaction. They can continue running even when the app is closed or destroyed. However, they still run on the main thread 
   by default, so using a separate worker thread within the service is necessary for true background processing.
 
+11. ContentResolver - When you want to access data in a content provider, you use the ContentResolver object in your application's 
+  Context to communicate with the provider as a client. The ContentResolver object communicates with the provider object, an instance 
+  of a class that implements ContentProvider .
 
 
 
