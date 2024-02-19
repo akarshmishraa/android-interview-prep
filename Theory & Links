@@ -1,8 +1,8 @@
 1. LiveData: An observable data holder class that respects the lifecycle of app components, 
   automatically managing subscriptions and preventing memory leaks.
 
-2. ViewModel: A class responsible for preparing and managing data for UI components, 
-  surviving configuration changes, and decoupling data from activities/fragments.
+2. ViewModel: A class responsible for preparing and managing data for UI components, surviving configuration changes, 
+  and decoupling data from activities/fragments.
 
 3. Room[Android Room Persistence Library]: Room streamlines SQLite operations by automatically generating necessary code based on 
   annotations, reducing boilerplate and potential errors. Additionally, it enforces compile-time checks for SQL queries, 
@@ -12,16 +12,13 @@
   - Entities are data classes representing tables within the database, annotated with @Entity. 
   - Data Access Objects (DAOs) define methods for interacting with the database, using annotations like @Insert, @Update, @Delete, and @Query.
 
-Room streamlines SQLite operations by automatically generating necessary code based on annotations, reducing boilerplate and potential errors. Additionally, it enforces compile-time checks for SQL queries, ensuring correctness before runtime. Room also supports LiveData and RxJava integration, enabling easy observation of database changes and asynchronous execution.
-
 4. Data Binding: A support library enabling binding UI components directly to data sources, 
   reducing boilerplate code and improving readability.
 
 5. Paging: A library handling large datasets efficiently by loading small chunks as needed, 
   optimizing resource usage and user experience.
 
-6. WorkManager: A library managing deferrable background tasks, ensuring execution under various 
-  constraints while respecting system optimizations.
+6. WorkManager: A library managing deferrable background tasks, ensuring execution under various constraints while respecting system optimizations.
 
 7. BroadcastReceiver: A BroadcastReceiver in Android is a component that responds to system-wide or app-specific events, 
   known as Intents. It allows apps to react to changes without running continuously, conserving resources. 
@@ -50,5 +47,7 @@ Room streamlines SQLite operations by automatically generating necessary code ba
   Context to communicate with the provider as a client. The ContentResolver object communicates with the provider object, an instance 
   of a class that implements ContentProvider .
 
+12. GlobalScope - Global scope is used to launch top-level coroutines which are operating on the whole application lifetime and are not 
+  cancelled prematurely. 
 
 
