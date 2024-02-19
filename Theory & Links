@@ -4,8 +4,15 @@
 2. ViewModel: A class responsible for preparing and managing data for UI components, 
   surviving configuration changes, and decoupling data from activities/fragments.
 
-3. Room: A SQLite object-mapping library providing compile-time checks and boilerplate code reduction, 
-  simplifying database operations.
+3. Room[Android Room Persistence Library]: Room streamlines SQLite operations by automatically generating necessary code based on 
+  annotations, reducing boilerplate and potential errors. Additionally, it enforces compile-time checks for SQL queries, 
+  ensuring correctness before runtime. Room also supports LiveData and RxJava integration, enabling easy observation of database changes 
+  and asynchronous execution. Provides an abstraction layer over SQLite.
+  - Database represents the app’s database, defined as an abstract class extending RoomDatabase. 
+  - Entities are data classes representing tables within the database, annotated with @Entity. 
+  - Data Access Objects (DAOs) define methods for interacting with the database, using annotations like @Insert, @Update, @Delete, and @Query.
+
+Room streamlines SQLite operations by automatically generating necessary code based on annotations, reducing boilerplate and potential errors. Additionally, it enforces compile-time checks for SQL queries, ensuring correctness before runtime. Room also supports LiveData and RxJava integration, enabling easy observation of database changes and asynchronous execution.
 
 4. Data Binding: A support library enabling binding UI components directly to data sources, 
   reducing boilerplate code and improving readability.
@@ -15,3 +22,30 @@
 
 6. WorkManager: A library managing deferrable background tasks, ensuring execution under various 
   constraints while respecting system optimizations.
+
+7. BroadcastReceiver: A BroadcastReceiver in Android is a component that responds to system-wide or app-specific events, 
+  known as Intents. It allows apps to react to changes without running continuously, conserving resources. 
+  BroadcastReceivers are registered either statically via the manifest file or dynamically through code.
+  Example - A common use case for BroadcastReceiver is monitoring network connectivity. When an app requires internet access, 
+  it can register a BroadcastReceiver to listen for connectivity changes and respond accordingly. For example, 
+  if the device loses connection, the app could pause data syncing until reconnected.
+
+8. Storage Options: Android offers three main storage options: Internal Storage, External Storage, and Shared Preferences.
+
+9. Network Connections : To handle network requests in Android applications, developers typically use RESTful APIs and JSON data. 
+  The process involves the following steps:
+
+  - Choose a networking library like Retrofit or Volley to simplify API calls and manage background tasks.
+  - Create an interface defining the endpoints of the RESTful API with appropriate HTTP methods (GET, POST, PUT, DELETE) and parameters.
+  - Implement a client class that initializes the chosen networking library and sets up the base URL for API calls.
+  - Use Gson or Moshi converter to parse JSON data into Java objects (POJOs) representing the API response structure.
+  - In the application’s ViewModel or Presenter, call the API using the client class and handle success/error responses accordingly.
+  - Update the UI based on the received data by observing LiveData or using callbacks.
+
+10. Services-  run independently from the application’s UI and lifecycle, making them suitable for long-running tasks that don’t 
+  need user interaction. They can continue running even when the app is closed or destroyed. However, they still run on the main thread 
+  by default, so using a separate worker thread within the service is necessary for true background processing.
+
+
+
+
