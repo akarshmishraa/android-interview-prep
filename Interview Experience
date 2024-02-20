@@ -1,3 +1,19 @@
+Jar Interview :
+[Round 1]
+1. Practical applications on coroutines with examples
+2. Inline functions
+3. supervisorScope
+4. suspend keyword implementation
+5. Hot flow vs Cold flow
+6. How long does a thread needs to be inactivie for an ANR to occur - 5 seconds
+
+[Round 2]
+1. Compose deepdive and making a compolex UI with compose
+2. Computational strain while using Linear Layout, Relative Layout & Constrained Layout.
+3. Why do we use default dispatchers for CPU intensive tasks?
+4. How to make Grid recycler view using compose?
+5. How internally threads word when async is used in compose?
+6. 
 
 Grab interview:
 
