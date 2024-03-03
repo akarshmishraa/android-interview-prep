@@ -6,6 +6,7 @@ Jar Interview :
 4. suspend keyword implementation
 5. Hot flow vs Cold flow
 6. How long does a thread needs to be inactivie for an ANR to occur - 5 seconds
+7. Work Manager : https://medium.com/@mohit2656422/top-10-work-manager-questions-2024-3631683bf290
 
 [Round 2]
 1. Compose deepdive and making a compolex UI with compose
