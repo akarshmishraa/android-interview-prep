@@ -43,8 +43,8 @@ DS Algo
 -------------------------------------------------------------------------------------
 
 Kotlin
-1. Extension functions
-2. Higher order functions
+1. Extension functions : allows you to add new functions to existing classes without directly modifying their code.
+2. Higher order functions : functions that can accept other functions as parameters and/or return functions as their results.
 3. Couroutines
 4. 
 
