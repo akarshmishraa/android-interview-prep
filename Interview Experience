@@ -1,3 +1,11 @@
+Meesho Interview:
+[Round 1] 
+1. Resume walkthrough. Tried to intimidate a lot. Take water before interview & be confident.
+2. Seal Class in Kotlin : It is used to define a closed set of subclasses. 
+                It allows you to define a restricted class hierarchy in which subclasses are predefined and finite.
+3. Encryption used in MediBuddy
+4. What are the Dependency Injection tools used in MediBuddy?: Koin, Dagger2, HILT
+
 Jar Interview :
 [Round 1]
 1. Practical applications on coroutines with examples
