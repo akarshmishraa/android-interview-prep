@@ -6,6 +6,12 @@ Meesho Interview:
 3. Encryption used in MediBuddy
 4. What are the Dependency Injection tools used in MediBuddy?: Koin, Dagger2, HILT
 
+[Round 2] : Live coding round
+1. Coroutines in depth
+2. Parallelism in coroutines
+3. Cancellation of coroutines
+4. Error handelling in coroutines.
+
 Jar Interview :
 [Round 1]
 1. Practical applications on coroutines with examples
