@@ -1,8 +1,11 @@
 Meesho Interview:
+
 [Round 1] 
 1. Resume walkthrough. Tried to intimidate a lot. Take water before interview & be confident.
-2. Seal Class in Kotlin : It is used to define a closed set of subclasses. 
-                It allows you to define a restricted class hierarchy in which subclasses are predefined and finite.
+2. Seal Class in Kotlin : Sealed classes in Kotlin provide a robust way to handle restricted hierarchies and ensure exhaustive
+                          handling of different states. They are particularly beneficial in Android development for managing UI states, 
+                          network responses, and other scenarios where a fixed set of types is needed. This leads to more maintainable
+                          and error-resistant code.
 3. Encryption used in MediBuddy
 4. What are the Dependency Injection tools used in MediBuddy?: Koin, Dagger2, HILT
 
@@ -10,9 +13,11 @@ Meesho Interview:
 1. Coroutines in depth
 2. Parallelism in coroutines
 3. Cancellation of coroutines
-4. Error handelling in coroutines.
+4. Error handelling in coroutines. 
+
 
 Jar Interview :
+
 [Round 1]
 1. Practical applications on coroutines with examples
 2. Inline functions
@@ -23,18 +28,19 @@ Jar Interview :
 7. Work Manager : https://medium.com/@mohit2656422/top-10-work-manager-questions-2024-3631683bf290
 
 [Round 2]
-1. Compose deepdive and making a compolex UI with compose
+1. Compose deepdive and making a complex UI with compose
 2. Computational strain while using Linear Layout, Relative Layout & Constrained Layout.
 3. Why do we use default dispatchers for CPU intensive tasks?
 4. How to make Grid recycler view using compose? : LazyGrid
 5. How internally threads word when async is used in compose?
 6. Drawing shapes in XML.
 
+
 Grab interview:
 
 1. How does the hash-map work? https://www.youtube.com/watch?v=c3RVW3KGIIE
 2. Which one would you use relativelayout or linearlayout
-3. Launch modes —https://medium.com/@iammert/android-launchmode-visualized-8843fc833dbe
+3. Launch modes — https://medium.com/@iammert/android-launchmode-visualized-8843fc833dbe
 4. Activity lifecycle
 5. When is onSaveInstance will be called — when the activity is about to stop.
 6. Case where onSavinstance is not called  — When user explicitly closes the activity or wen finish() is called.
@@ -45,7 +51,8 @@ Grab interview:
 8. Difference between MVC, MVP, MVVM.
 
 
-other interviews :
+Other interviews :
+
 1. Explain singleton design pattern
 2. What are some of the design patterns you know — MVC, MVP, MVVM
 3. If there is activity A that has opened activity B, what all methods will be invoked when you press back on Activity B starting from onBackpressed().
@@ -55,8 +62,8 @@ other interviews :
     It is a custom serialization thus there is no garbage and the process is faster.
 
 
-
 ULA interview: (25-June-2020)
+
 Questions were based mostly on system design
 1. Design Instagram : Given large size images(>10MB) how will you show images in the app— compression(on server side or in app). 
     How the images will be viewd by other users. Basically how does Instagram work?
@@ -87,6 +94,7 @@ Delhivery Interview:
 
 
 VmWare interview
+
 1. Difference between serializable and parcelable
 2. Double interface design principle
 3. Mediator livedata
@@ -98,6 +106,7 @@ VmWare interview
 
 
 RSA interview
+
 Round 1&2 : 
     1. Content provider, Content resolver : Imagine all the services to be books in a library -> 
         - The Content Provider (librarian) manages all the data and decides who can access it, 
@@ -123,7 +132,7 @@ Round 1&2 :
  
 
 
-    ShadowFax Interview :
+ShadowFax Interview :
     
     1. Tell me about the projects you worked on.
     2. What is a Service : types of service ? https://www.vogella.com/tutorials/AndroidServices/article.html
@@ -141,6 +150,7 @@ Round 1&2 :
  
 
 Chingari app interview :
+
 1. What apps did you work on in the company? What feature did you develop in these apps?
 2. Have you worked on any Video related apps?
 3. How do you get notifications in your app? Wanted to know abt GCM & FCM.
@@ -149,16 +159,16 @@ Chingari app interview :
 6. If you notice a bug in your app  how do you solve it and release the app, what is the procedure that you follow?
 
 
-
 Dot Interview:
+
 1. What are couroutines?
 2. What is any class in kotlin?
 3. What is Elvis operator?
 4. How does async operation happen in coroutines?
-5. 
 
 
 BigBasket interview :
+
 1. Difference between  MVVM and MVP - which one will you use and why?
 2. How does push notifications work?
 3. Designing a chat app.
@@ -174,7 +184,9 @@ BigBasket interview :
 13. null safety in kotlin
 14. What are primary and secondary constructor in kotlin?
 
-Brick n Bolt
+
+Brick n Bolt:
+
 1. What are inline functions in kotlin?
 2. What are services in android?
 3. Coroutines walkthrough example where certain code is written inside a coroutine and sequence of execution is asked.
@@ -186,7 +198,9 @@ Brick n Bolt
     default -> CPU-bound tasks, 
     unconfined -> Tailored to specific threading requirements
 
+
 Few Other interview Questions on kotlin :
+
 1. What is "is" and "as" in kotlin
 2. How to initialise a viewmodel? 
 3. What is viewModelProvider and what does it do?
