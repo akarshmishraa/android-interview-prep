@@ -1,3 +1,15 @@
+Slice 
+[Round 1]
+1. When should saveInstance state be called and why?
+2. Difference between Threads & coroutines.
+3. Design an SDK for authentication.
+4. What is clean architecture? How is clean architecture used with MVVM?
+5. What happens when a phone runs out of memory while running a task?
+6. Async, launch, parent & child coroutines, cancelling a child coroutine, sequential & parallel coroutines, dispatchers 
+7. Flows, Shared flow & Example of using a live data.
+8. Why are viewModels used instead of classes?
+
+
 Meesho Interview:
 
 [Round 1] 
