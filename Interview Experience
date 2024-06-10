@@ -72,6 +72,8 @@ Other interviews :
 5. Why is serializable slower than parcelable — Serializable uses default java interface implementation which uses reflection and thus produces garbage overhead.
     (Reflection is the process in which one code can inspect another code at runtime). Parcelable is object specific created for that particular object.
     It is a custom serialization thus there is no garbage and the process is faster.
+    Serializable and Parcelable are interfaces used to serialize objects, meaning converting them into a format that can be easily stored and transferred
+
 
 
 ULA interview: (25-June-2020)
