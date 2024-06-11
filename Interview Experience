@@ -13,7 +13,10 @@ Slice
 1. Live coding involving how MVVM & Clean architecture works
 2. Application of MutableLive data and observers.
 3. EncryptedSharedPrefs
-4. 
+4. Deepdive on fragment lifecycle
+5. Initializing a viewmodel
+6. Why are data classes used in kotlin?
+7. Why is Dependency Injection used in Android?
 
 
 Meesho Interview:
