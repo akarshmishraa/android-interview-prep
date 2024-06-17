@@ -24,6 +24,8 @@ Slice
 5. What happens when a phone runs out of memory while running a task?
 6. Async, launch, parent & child coroutines, cancelling a child coroutine, sequential & parallel coroutines, dispatchers 
 7. Flows, Shared flow & Example of using a live data.
+      - LiveData and MutableLiveData are both part of the Android Architecture Components, designed to hold and manage UI-related data in a lifecycle-conscious way.
+      
 8. Why are viewModels used instead of classes?
 
 [Round 2]
