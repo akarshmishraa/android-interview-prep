@@ -1,3 +1,6 @@
+Swiggy [ Round 1 ]
+Assignment to create an Android app within 1.5 hours.
+
 Practo [Recruitment drive]
 [Round 1]
 DSA : Knapsack 0-1 
@@ -206,7 +209,7 @@ Chingari app interview :
 Dot Interview:
 
 1. What are couroutines?
-2. What is any class in kotlin?
+2. What is any class in kotlin? : Any is the superclass of all subclasses in Kotlin.
 3. What is Elvis operator?
 4. How does async operation happen in coroutines?
 
@@ -222,7 +225,8 @@ BigBasket interview :
 7. What practices you use for releasing  the apk on playstore ?
 8. App security
 9. Difference between livedata and immutable live data
-10. Difference between data class and class in kotlin
+10. Difference between data class and class in kotlin : A data class in Kotlin is a specialized class for holding data. 
+                                                         It automatically provides implementations for commonly used methods
 11. You have 3 apis. One is input to another. How will you execute this in coroutines?
 12. Advantages of kotlin over java
 13. null safety in kotlin
