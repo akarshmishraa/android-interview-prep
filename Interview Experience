@@ -21,14 +21,13 @@ System Design: Design a youtube search bar
 Slice 
 [Round 1]
 1. When should saveInstance state be called and why?
-2. Difference between Threads & coroutines.
+2. Difference between Threads & coroutines : Threads are managed by the OS & coroutines are manged by the users.
 3. Design an SDK for authentication.
 4. What is clean architecture? How is clean architecture used with MVVM?
 5. What happens when a phone runs out of memory while running a task?
 6. Async, launch, parent & child coroutines, cancelling a child coroutine, sequential & parallel coroutines, dispatchers 
 7. Flows, Shared flow & Example of using a live data.
       - LiveData and MutableLiveData are both part of the Android Architecture Components, designed to hold and manage UI-related data in a lifecycle-conscious way.
-      
 8. Why are viewModels used instead of classes?
 
 [Round 2]
@@ -37,9 +36,11 @@ Slice
 3. EncryptedSharedPrefs
 4. Deepdive on fragment lifecycle
 5. Initializing a viewmodel
-6. Why are data classes used in kotlin?
-7. Why is Dependency Injection used in Android?
-8. What is the use of companion objects in android?
+6. Why are data classes used in kotlin? : Data classes are used as data storing classes. 
+                                          They provide inbuild methods which can be used without specifically writing them.
+7. Why is Dependency Injection used in Android? : To improve code modularity, testability, and maintainability.
+8. What is the use of companion objects in android? : It can be thought of as a place to put functions and properties that 
+                                                      belong to the class itself rather than to instances of the class.
 9. Why is setContentView() used in Kotlin?
 
 
