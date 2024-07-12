@@ -8,7 +8,7 @@ onStop(): Activity no longer visible. Release resources and save data. Can be ca
 onDestroy(): Final cleanup before activity destroyed. Free up memory and resources. Called once.
 
 
-Fragemnts 
+Fragments 
 
 Enhance reusability and adaptability for different screen sizes. They exist within activities and have their own lifecycle,
 which is closely tied to the host activity’s lifecycle.
