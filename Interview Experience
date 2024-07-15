@@ -5,6 +5,7 @@ Hike
 3. What was the need of introducing Fragments on top of activities
 4. Simple DSA
 5. How to handle back presses on fragments effectively with customized functions for all the fragments.
+6. Difference between commit and apply in sharedPrefs.
 
 
 Swiggy 
@@ -39,7 +40,7 @@ Slice
 6. Async, launch, parent & child coroutines, cancelling a child coroutine, sequential & parallel coroutines, dispatchers 
 7. Flows, Shared flow & Example of using a live data.
       - LiveData and MutableLiveData are both part of the Android Architecture Components, designed to hold and manage UI-related data in a lifecycle-conscious way.
-8. Why are viewModels used instead of classes?
+8. Why are viewModels used instead of classes? :  To provide a more efficient and lifecycle-aware way of managing UI-related data.
 
 [Round 2]
 1. Live coding involving how MVVM & Clean architecture works
