@@ -8,8 +8,11 @@ Hike
 6. Difference between commit and apply in sharedPrefs.
 
 [Round 2] (Ass tattering)
-https://docs.google.com/document/d/1iB2TV4aED-aMPg_hJ0UL7_zWQ6CCcLqAhLuPn6nalI0/edit
-
+1. Scope functions, .let, .run, .with, .filter, .runWith etc : Return types, usages, etc.
+2. Kotlin benefits over Java : Give examples of all the points one by one.
+3. == and === operator on strings.
+4. lateinit vs lazy and the logic behind it's usage
+5. Higher order functions, how they work and how to initiate them. Both in case of passing and returning.
 
 
 Swiggy 
